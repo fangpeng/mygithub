@@ -10,4 +10,7 @@ class OperationAborted(Exception):
 
     def __unicode__(self):
         return unicode(self.msg)
+    
+    def just_do_id(self):
+        print "just do it"
         
