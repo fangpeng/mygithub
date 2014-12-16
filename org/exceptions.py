@@ -11,5 +11,3 @@ class OperationAborted(Exception):
     def __unicode__(self):
         return unicode(self.msg)
         
-    def get_name(self):
-        return self.msg
