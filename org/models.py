@@ -156,4 +156,3 @@ class Org(CachedModel):
         '''该方法仅用于调试，可能被删除'''
         for org in qs.order_by('sorting_order'):
             print >> file, '%s%s' % ('\t' * org.depth, unicode(org),)
-        print 'fangpen do a changeg'
