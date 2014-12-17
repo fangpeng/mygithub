@@ -13,6 +13,7 @@ org_categories = (
     (1, u'旅游集团'),
     (2, u'邮政'),
     (3, u'其它'),
+    (4, u'邮政企业'),
 )
 
 class Org(CachedModel):
