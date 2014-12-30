@@ -17,6 +17,7 @@ org_categories = (
     (5, u'分景点')
 )
 
+'''It's a models test'''
 class Org(CachedModel):
     '''
     机构基础类
