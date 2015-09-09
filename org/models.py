@@ -39,7 +39,9 @@ class Org(CachedModel):
     flag2 = models.BooleanField(verbose_name=u'出库', default=False, db_index=True)
     flag3 = models.BooleanField(verbose_name=u'售票', default=False, db_index=True)
     flag4 = models.BooleanField(verbose_name=u'检票', default=False, db_index=True)
-
+    
+    #fangpeng add 2015-09-09
+    fangpeng = models.BooleanField(verbose_name=u'检票', default=False, db_index=True)
     objects = OrgManager()#扩展管理器
 
     def __unicode__(self):
