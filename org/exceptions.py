@@ -14,8 +14,4 @@ class OperationAborted(Exception):
     def just_do_it(self):
         print "just do it"
         
-    def new_fun(self):
-        print 'a new test'
-       
-    def add_new_fun(self):
-        return 'fangpeng test' 
+
