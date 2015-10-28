@@ -16,4 +16,6 @@ class OperationAborted(Exception):
         
     def new_fun(self):
         print 'a new test'
-        
+       
+    def add_new_fun(self):
+        return 'fangpeng test' 
